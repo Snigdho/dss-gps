@@ -9,6 +9,8 @@
             font-family: 'Roboto','sans-serif';
             line-height: 30px;
             padding-left: 10px;
+            width: 20%;
+            float: left;
         }
 
         #right-panel select, #right-panel input {
@@ -26,6 +28,7 @@
         #map {
             height: 450px;
             width: 70%;
+            float: left;
         }
 
         #right-panel {
@@ -70,6 +73,7 @@
             <div id="right-panel">
               <p>Total Distance: <span id="total"></span></p>
             </div>
+            <div style="clear:both"></div> <!--Do not make any changes in this div-->
             <script>
                 function sleep(ms) {
                   return new Promise(resolve => setTimeout(resolve, ms));
